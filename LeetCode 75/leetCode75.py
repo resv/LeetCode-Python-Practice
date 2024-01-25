@@ -48,14 +48,15 @@ n == candies.length
 
 class Solution(object):
     def kidsWithCandies(self, candies, extraCandies):
-        candies.sort()
-        highestCandyIndex = len(candies)-1
-        highestCandyValue = candies[highestCandyIndex]
+        
+        highestCandyValue = max(candies)
         updatedValue = 0
-
+        result = []
+    
         for candy in candies:
             updatedValue=candy+extraCandies
             if updatedValue >= highestCandyValue:
-                return 'true'
+                result.append(True)
             else:
-                return 'false'
+                result.append(False)
+        return result
