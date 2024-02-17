@@ -1,4 +1,5 @@
-''' QUESTION:
+################################# QUESTION ########################################################
+
 283. Move Zeroes
 Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 
@@ -22,6 +23,9 @@ Constraints:
 -231 <= nums[i] <= 231 - 1
 
 
+
+################################# MY SOLUTION ########################################################
+
 ``` My Python Solution (Funny I saw that I did this in 2018 in Java, I included it below my python solution)
 
 class Solution(object):
@@ -39,7 +43,8 @@ class Solution(object):
 
  
 
- ``` my Java Solution in 2018
+################################# MY SOLUTION ########################################################
+# my Java Solution in 2018
 
  class Solution {
     public void moveZeroes(int[] nums) {

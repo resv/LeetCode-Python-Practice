@@ -1,4 +1,4 @@
-''' QUESTION:
+################################# QUESTION ########################################################
 
 1431. Kids With the Greatest Number of Candies
 Attempted
@@ -44,7 +44,8 @@ n == candies.length
 1 <= extraCandies <= 50'''
 
 
-'''ANSWER:'''
+
+################################# MY SOLUTION ########################################################
 
 class Solution(object):
     def kidsWithCandies(self, candies, extraCandies):
